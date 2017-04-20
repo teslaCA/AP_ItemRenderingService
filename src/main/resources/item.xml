@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<contents>
+    <content groupID="Page-33ab7d0c-358d-479d-a1f0-53ec1f1fe71a" segmentID="default" layout="21" language="ENU">
+        <passage bankKey="187" itemKey="3720" printed="false">
+            <resources>
+                <resource type="wordList" bankKey="187" itemKey="2436"/>
+            </resources>
+            <attachments>
+                <attachment id="aslfile1" type="ASL" subType="STEM" target="" url="/iris/Pages/API/Resources.axd?path=hCnainaGjIzV51nYY854ldL2buXualldAFTRM%2FEvGsE4loOplLzRqTlj9otlpYwoBchnZ0sz5syRDIjHZQ3BEg%3D%3D&amp;file=passage_3720_ASL_STEM.MP4"/>
+            </attachments>
+            <filePath>hCnainaGjIzV51nYY854ldL2buXualldAFTRM%2FEvGsE4loOplLzRqTlj9otlpYwoN2USeSrTEDG5xty7zgUmGbfcCrM2R6FemlQRB2qsotE%3D</filePath>
+            <media>
+                <resource type="application/mathml+xml" file="passage_3720_v27_Object1_png16malpha.png">
+                    <![CDATA[
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd">
+                    <math:math xmlns:math="http://www.w3.org/1998/Math/MathML">
+                        <math:semantics>
+                            <math:mfrac>
+                                <math:mn>1</math:mn>
+                                <math:mn>2</math:mn>
+                            </math:mfrac>
+                            <math:annotation math:encoding="StarMath 5.0">1 over 2</math:annotation>
+                        </math:semantics></math:math>]]>
+                </resource>
+                <resource type="application/mathml+xml" file="passage_3720_v27_Object2_png16malpha.png">
+                    <![CDATA[
+                        <?xml version="1.0" encoding="UTF-8"?>
+                        <!DOCTYPE math:math PUBLIC "-//OpenOffice.org//DTD Modified W3C MathML 1.01//EN" "math.dtd">
+                        <math:math xmlns:math="http://www.w3.org/1998/Math/MathML">
+                            <math:semantics>
+                                <math:mfrac>
+                                    <math:mn>1</math:mn>
+                                    <math:mn>4</math:mn>
+                                </math:mfrac>
+                                <math:annotation math:encoding="StarMath 5.0">1 over 4</math:annotation>
+                            </math:semantics></math:math>]]>
+                </resource>
+            </media>
+        </passage>
+        <items>
+            <item bankKey="187" itemKey="2061" subject="MATH" grade="7" format="SA" marked="false" disabled="false" printable="false" printed="false" responseType="HTMLEditor" position="2061" positionOnPage="1">
+                <filePath>hCnainaGjIzV51nYY854lYprchCHOikcSDsBprWEFeKU5ZIgBQrwz8zeGRlv7dl0M4XwiTzyrl2Jz5yq3ke7SM44Exvni0bpDIuDhPuv7tI%3D</filePath>
+                <tutorial bankKey="187" itemKey="1078"/>
+                <resources>
+                    <resource type="wordList" bankKey="187" itemKey="2439"/>
+                </resources>
+                <attachments>
+                    <attachment id="aslfile1" type="ASL" subType="STEM" target="" url="/iris/Pages/API/Resources.axd?path=hCnainaGjIzV51nYY854lYprchCHOikcSDsBprWEFeKU5ZIgBQrwz8zeGRlv7dl0Hs75zNpsYmyfhD%2FftTleJg%3D%3D&amp;file=item_2061_ASL_STEM.MP4"/>
+                </attachments>
+            </item>
+        </items>
+        <html>
+            <![CDATA[
+<div xmlns="http://www.w3.org/1999/xhtml" id="Page_Page-33ab7d0c-358d-479d-a1f0-53ec1f1fe71a" class="itemcount_1 layout_21 browser_chrome browserVer_56_0 platform_osx"><div class="bigTable layout21"><div class="thePassage contextArea" title="Passage">
+                    <!-- onmouseover="fixHighlightFocus()" -->
+                    <div class="padding">
+                        <h2>Using Water
+                            <span id="passage_3720_TAG_4_BEGIN">Wisely</span>
+                            <p style="">&#xA0;</p>
+                        </h2>
+                        <p style="">Water is a
+                            <span id="passage_3720_TAG_28" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="1"></span>valuable resource
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_28" data-tag-boundary="end"></span> that
+                            <span id="passage_3720_TAG_29" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="2"></span>can easily
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_29" data-tag-boundary="end"></span>
+                            <span id="passage_3720_TAG_30" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="3"></span>be wasted
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_30" data-tag-boundary="end"></span>. In this task you will investigate
+                            <span id="passage_3720_TAG_31" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="4"></span>how much
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_31" data-tag-boundary="end"></span> water the
+                            <span id="passage_3720_TAG_32" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="5"></span>average
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_32" data-tag-boundary="end"></span> American uses
+                            <span id="passage_3720_TAG_33" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="6"></span>each
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_33" data-tag-boundary="end"></span> day. You will then investigate
+                            <span id="passage_3720_TAG_34" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="4"></span>how much
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_34" data-tag-boundary="end"></span> water a family of 4
+                            <span id="passage_3720_TAG_35" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="8"></span>could save
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_35" data-tag-boundary="end"></span> using different strategies.
+                        </p>
+                        <p style="">&#xA0;</p>
+                        <p style="">
+                            <span id="passage_3720_TAG_36" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="9"></span>According
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_36" data-tag-boundary="end"></span> to
+                            <span id="passage_3720_TAG_37" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="10"></span>some
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_37" data-tag-boundary="end"></span> estimates, the
+                            <span id="passage_3720_TAG_38" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="5"></span>average
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_38" data-tag-boundary="end"></span> American uses
+                            <span id="passage_3720_TAG_3_BEGIN">80–100</span> gallons of water
+                            <span id="passage_3720_TAG_39" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="12"></span>daily
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_39" data-tag-boundary="end"></span>.
+                            <span id="passage_3720_TAG_40" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="13"></span>Of this total
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_40" data-tag-boundary="end"></span>, the
+                            <span id="passage_3720_TAG_41" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="11"></span>average
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_41" data-tag-boundary="end"></span> American uses
+                            <span id="passage_3720_TAG_42" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="15"></span>about
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_42" data-tag-boundary="end"></span>:
+                        </p>
+                        <ul style="padding-left:1.5000em; ">
+                            <li>
+                                <p style="">
+                                    <span id="passage_3720_TAG_5_BEGIN">27%</span> by
+                                    <span id="passage_3720_TAG_43" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="16"></span>flushing
+                                    <span id="passage_3720_TAG_6_BEGIN">toilets</span>
+                                    <span class="its-tag" data-tag-ref="passage_3720_TAG_43" data-tag-boundary="end"></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p style="">
+                                    <span id="passage_3720_TAG_7_BEGIN">25%</span> while taking
+                                    <span id="passage_3720_TAG_44" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="17"></span>
+                                    <span id="passage_3720_TAG_8_BEGIN">showers/baths</span>
+                                    <span class="its-tag" data-tag-ref="passage_3720_TAG_44" data-tag-boundary="end"></span>
+                                </p>
+                            </li>
+                            <li>
+                                <p style="">
+                                    <span id="passage_3720_TAG_9_BEGIN">10%</span> by running the faucet while
+                                    <span id="passage_3720_TAG_45" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="18"></span>brushing
+                                    <span class="its-tag" data-tag-ref="passage_3720_TAG_45" data-tag-boundary="end"></span> teeth, washing hands, and
+                                    <span id="passage_3720_TAG_46" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="19"></span>
+                                    <span id="passage_3720_TAG_10_BEGIN">shaving</span>
+                                    <span class="its-tag" data-tag-ref="passage_3720_TAG_46" data-tag-boundary="end"></span>
+                                </p>
+                            </li>
+                        </ul>
+                        <p style="">&#xA0;</p>
+                        <p style="">Water is also used for various other
+                            <span id="passage_3720_TAG_47" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="20"></span>purposes
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_47" data-tag-boundary="end"></span> (cooking, drinking water, watering plants, washing clothes,
+                            <span id="passage_3720_TAG_11_BEGIN">etc.</span>)
+                            <span id="passage_3720_TAG_48" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="21"></span>that
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_48" data-tag-boundary="end"></span>
+                            <span id="passage_3720_TAG_49" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="22"></span>account
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_49" data-tag-boundary="end"></span> for the
+                            <span id="passage_3720_TAG_50" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="23"></span>remaining
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_50" data-tag-boundary="end"></span>
+                            <span id="passage_3720_TAG_51" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="24"></span>percentage
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_51" data-tag-boundary="end"></span> of water used by the
+                            <span id="passage_3720_TAG_52" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="5"></span>average
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_52" data-tag-boundary="end"></span> American.
+                        </p>
+                        <p style="">&#xA0;</p>
+                        <p style="">
+                            <span style="font-weight:normal; ">Table 1</span>
+                            <span style="font-weight:bold; "> </span>shows the
+                            <span id="passage_3720_TAG_53" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="5"></span>average
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_53" data-tag-boundary="end"></span> amount of water used during some
+                            <span id="passage_3720_TAG_12_BEGIN">activities.</span>
+                        </p>
+                        <p style="">&#xA0;</p>
+                        <p style="font-weight:bold; ">Table
+                            <span id="passage_3720_TAG_13_BEGIN">1.</span> Water Used by Activity and
+                            <span id="passage_3720_TAG_14_BEGIN">Duration</span>
+                        </p>
+                        <div align="left">
+                            <table class="newtable" id="passage_3720_Table1" style="width:29.5002em; border-spacing:0;" cellpadding="0" cellspacing="0">
+                                <colgroup style="width:12.9378em; " />
+                                <colgroup style="width:6.3750em; " />
+                                <colgroup style="width:10.1874em; " />
+                                <tbody>
+                                    <tr>
+                                        <td style="padding:0.2292em;  border-left:0.06em solid #000000; border-top:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; ">
+                                            <p style="text-align:center; font-weight:bold; ">
+                                                <span id="passage_3720_TAG_15_BEGIN">Activity</span>
+                                            </p>
+                                        </td>
+                                        <td style="padding:0.2292em;  border-left:0.06em solid #000000; border-top:0.06em solid #000000; border-bottom:0.06em solid #000000;vertical-align:top; ">
+                                            <p style="text-align:center; font-weight:bold; ">Duration</p>
+                                        </td>
+                                        <td style="padding:0.2292em;  border:0.06em solid #000000;vertical-align:top; ">
+                                            <p style="text-align:center; font-weight:bold; ">Amount of Water
+                                                <span id="passage_3720_TAG_16_BEGIN">Used</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="vertical-align:middle; padding:0.2292em;  border-left:0.06em solid #000000; border-bottom:0.06em solid #000000;">
+                                            <p style="">
+                                                <span id="passage_3720_TAG_17_BEGIN">Showering</span>
+                                            </p>
+                                        </td>
+                                        <td style="vertical-align:middle; padding:0.2292em;  border-left:0.06em solid #000000; border-bottom:0.06em solid #000000;">
+                                            <p style="text-align:center; ">11 minutes</p>
+                                        </td>
+                                        <td style="vertical-align:middle; padding:0.2292em;  border-left:0.06em solid #000000; border-right:0.06em solid #000000; border-bottom:0.06em solid #000000;">
+                                            <p style="text-align:center; ">
+                                                <span id="passage_3720_TAG_18_BEGIN">20–25 gallons</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="vertical-align:middle; padding:0.2292em;  border-left:0.06em solid #000000; border-bottom:0.06em solid #000000;">
+                                            <p style="">
+                                                <span id="passage_3720_TAG_19_BEGIN">Running</span> water in bathtub while waiting for water to get hot
+                                            </p>
+                                        </td>
+                                        <td style="vertical-align:middle; padding:0.2292em;  border-left:0.06em solid #000000; border-bottom:0.06em solid #000000;">
+                                            <p style="text-align:center; ">
+                                                <img id="passage_3720_Object1" style="vertical-align:middle;" src="/iris/Pages/API/Resources.axd?path=hCnainaGjIzV51nYY854ldL2buXualldAFTRM%2FEvGsE4loOplLzRqTlj9otlpYwoBchnZ0sz5syRDIjHZQ3BEg%3D%3D&amp;file=passage_3720_v27_Object1_png16malpha.png" width="11" height="33" />
+                                                <span id="passage_3720_TAG_27_BEGIN">minute</span>
+                                            </p>
+                                        </td>
+                                        <td style="vertical-align:middle; padding:0.2292em;  border-left:0.06em solid #000000; border-right:0.06em solid #000000; border-bottom:0.06em solid #000000;">
+                                            <p style="text-align:center; ">3
+                                                <span id="passage_3720_TAG_20_BEGIN">gallons</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="vertical-align:middle; padding:0.2292em;  border-left:0.06em solid #000000; border-bottom:0.06em solid #000000;">
+                                            <p style="">
+                                                <span id="passage_3720_TAG_21_BEGIN">Leaky</span> faucet
+                                            </p>
+                                        </td>
+                                        <td style="vertical-align:middle; padding:0.2292em;  border-left:0.06em solid #000000; border-bottom:0.06em solid #000000;">
+                                            <p style="text-align:center; ">1 second</p>
+                                        </td>
+                                        <td style="vertical-align:middle; padding:0.2292em;  border-left:0.06em solid #000000; border-right:0.06em solid #000000; border-bottom:0.06em solid #000000;">
+                                            <p style="text-align:center; ">2
+                                                <span id="passage_3720_TAG_22_BEGIN">drips*</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p style="font-weight:bold; ">
+                            <span id="passage_3720_TAG_23_BEGIN">
+                                <span style="font-weight:normal; ">*There</span>
+                            </span>
+                            <span style="font-weight:normal; "> is no </span>
+                            <span id="passage_3720_TAG_54" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="25"></span>
+                            <span style="font-weight:normal; ">standard</span>
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_54" data-tag-boundary="end"></span>
+                            <span style="font-weight:normal; "> definition of the volume of a </span>
+                            <span id="passage_3720_TAG_55" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="26"></span>
+                            <span style="font-weight:normal; ">faucet drip</span>
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_55" data-tag-boundary="end"></span>
+                            <span style="font-weight:normal; ">, but the USGS Water Science School uses </span>
+                            <span id="passage_3720_TAG_2_BEGIN">
+                                <span style="font-weight:normal; ">
+                                    <img id="passage_3720_Object2" style="vertical-align:middle;" src="/iris/Pages/API/Resources.axd?path=hCnainaGjIzV51nYY854ldL2buXualldAFTRM%2FEvGsE4loOplLzRqTlj9otlpYwoBchnZ0sz5syRDIjHZQ3BEg%3D%3D&amp;file=passage_3720_v27_Object2_png16malpha.png" width="12" height="33" />
+                                </span>
+                            </span>
+                            <span style="font-weight:normal; "> milliliter </span>
+                            <span id="passage_3720_TAG_24_BEGIN">
+                                <span style="font-weight:normal; ">(mL)</span>
+                            </span>
+                            <span style="font-weight:normal; "> as the volume of a </span>
+                            <span id="passage_3720_TAG_56" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="26"></span>
+                            <span style="font-weight:normal; ">faucet drip</span>
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_56" data-tag-boundary="end"></span>
+                            <span style="font-weight:normal; ">. </span>
+                            <span id="passage_3720_TAG_57" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="27"></span>
+                            <span style="font-weight:normal; ">So, by these</span>
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_57" data-tag-boundary="end"></span>
+                            <span style="font-weight:normal; "> </span>
+                            <span id="passage_3720_TAG_58" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="28"></span>
+                            <span style="font-weight:normal; ">drip</span>
+                            <span class="its-tag" data-tag-ref="passage_3720_TAG_58" data-tag-boundary="end"></span>
+                            <span style="font-weight:normal; "> estimates:</span>
+                        </p>
+                        <ul style="padding-left:1.5000em; ">
+                            <li>
+                                <p style="font-weight:normal; ">One gallon
+                                    <span id="passage_3720_TAG_25_BEGIN">= 15,140 drips</span>
+                                </p>
+                            </li>
+                            <li>
+                                <p style="font-weight:normal; ">One liter
+                                    <span id="passage_3720_TAG_26_BEGIN">= 4,000 drips</span>
+                                </p>
+                            </li>
+                        </ul>
+                        <p style="font-weight:normal; ">&#xA0;</p>
+                    </div>
+                </div>
+                <span class="maskQuestions"></span>
+                <div class="theQuestions">
+                    <div class="padding">
+                        <!-- what do we do about each question component? just keep as is, and then add new answer varioations ? -->
+                        <div id="Item_2061" class="questionAnswerGroup itemContainer format_sa response_htmleditor firstItem lastItem">
+                            <div class="questionContainer">
+                                <span class="markComment">
+                                    <a href="#" id="Item_HelpLink_2061" class="contexthelp">Item Tutorial</a>
+                                    <a href="#" id="Item_CommentLink_2061" class="commentItem">Submit a comment for this item</a>
+                                    <a href="#" id="Item_MarkLink_2061" class="markReview ">Mark Item for Review</a>
+                                    <input type="checkbox" id="Item_Mark_2061" name="Item_Mark_2061" style="display:none" />
+                                </span>
+                                <h2 id="QuestionNumber_2061" class="questionNumber">2061</h2>
+                                <div id="Stem_2061" class="stemContainer">
+                                    <p style="">Now, you will start investigating
+                                        <span id="item_2061_TAG_1" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="1"></span>ways
+                                        <span class="its-tag" data-tag-ref="item_2061_TAG_1" data-tag-boundary="end"></span> to
+                                        <span id="item_2061_TAG_2" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="2"></span>save
+                                        <span class="its-tag" data-tag-ref="item_2061_TAG_2" data-tag-boundary="end"></span> water. Taking
+                                        <span id="item_2061_TAG_3" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="3"></span>shorter
+                                        <span class="its-tag" data-tag-ref="item_2061_TAG_3" data-tag-boundary="end"></span>
+                                        <span id="item_2061_TAG_4" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="4"></span>showers
+                                        <span class="its-tag" data-tag-ref="item_2061_TAG_4" data-tag-boundary="end"></span> is one
+                                        <span id="item_2061_TAG_5" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="5"></span>way
+                                        <span class="its-tag" data-tag-ref="item_2061_TAG_5" data-tag-boundary="end"></span> to
+                                        <span id="item_2061_TAG_6" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="2"></span>save
+                                        <span class="its-tag" data-tag-ref="item_2061_TAG_6" data-tag-boundary="end"></span> water.
+                                    </p>
+                                    <p style="font-weight:normal; ">&#xA0;</p>
+                                    <p style="font-weight:normal; ">What is the range for the amount of water, in gallons, that
+                                        <span id="item_2061_TAG_7" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="6"></span>is saved
+                                        <span class="its-tag" data-tag-ref="item_2061_TAG_7" data-tag-boundary="end"></span> if a
+                                        <span id="item_2061_TAG_8" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="4"></span>shower
+                                        <span class="its-tag" data-tag-ref="item_2061_TAG_8" data-tag-boundary="end"></span>
+                                        <span id="item_2061_TAG_9" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="7"></span>lasts
+                                        <span class="its-tag" data-tag-ref="item_2061_TAG_9" data-tag-boundary="end"></span> for 5 minutes
+                                        <span id="item_2061_TAG_10" class="its-tag" data-tag="word" data-tag-boundary="start" data-word-index="8"></span>instead
+                                        <span class="its-tag" data-tag-ref="item_2061_TAG_10" data-tag-boundary="end"></span> of 11 minutes?
+                                    </p>
+                                </div>
+                                <!-- binding="AIR.Common.Web.taglib.PlaceHolder@650b0aa2": do not bind here. implement IUiRepeatDataElement interface instead-->
+
+                            </div>
+                            <div class="answerContainer">
+                                <div autocorrect="off" autocomplete="off" id="editor_2061" class="EditorContainer yui-skin-sam format_SA">
+                                    <textarea autocorrect="off" autocomplete="off" id="Item_Response_2061" name="Item_Response_2061" style="display:none;" spellcheck="false"></textarea>
+                                </div>
+                            </div>
+                            <div id="Item_CommentBox_2061" class="commentBox" style="display:none">
+                                <!--  -->
+                                <textarea rows="4" id="Item_Comment_2061" name="Item_Comment_2061"></textarea>
+                                <a href="#" id="Item_CommentCloseLink_2061" class="greenBtn">
+                                    <span>Close Comment</span>
+                                </a>
+                                <span class="clear"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div></div>]]>
+        </html>
+    </content>
+</contents>
