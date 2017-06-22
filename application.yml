@@ -22,6 +22,13 @@ security:
     name: "admin"
     password: "admin"
 
+logging:
+  level:
+    org:
+      opentestsystem:
+        ap:
+          irs: DEBUG
+
 spring:
   session:
     enabled: "${SESSION_CLUSTER_ENABLED:true}"
