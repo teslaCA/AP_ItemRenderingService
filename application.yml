@@ -19,3 +19,10 @@ security:
   user:
     name: "admin"
     password: "admin"
+
+logging:
+  level:
+    org:
+      opentestsystem:
+        ap:
+          irs: DEBUG
