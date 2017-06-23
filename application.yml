@@ -47,4 +47,4 @@ ivs:
   host: "${IVS_HOST:http://localhost:8200}"
   reloadEndpoint: "${IVS_RELOAD_ENDPOINT:/Pages/API/content/reload}"
   itemMapping: "${IVS_ITEM_MAPPING:/item}"
-  ivsBaseDir: "$IVS_BASE_DIR:${HOME}/ItemBankIVS"
+  ivsBaseDir: "${IVS_BASE_DIR:${HOME}/ItemBankIVS}"
