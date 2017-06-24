@@ -10,7 +10,7 @@ services:
         networks:
             - spring-cloud-network
         volumes:
-            - /opt/ivs/data/:/home/tomcat7/content/
+            - ${HOME}/ItemBankIVS/:/home/tomcat7/content/
         logging:
             driver: json-file
 networks:
