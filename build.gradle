@@ -17,6 +17,7 @@ buildscript {
 
 plugins {
     id 'java'
+    id 'idea'
     id 'checkstyle'
     id 'pmd'
     id 'findbugs'
@@ -34,34 +35,49 @@ apply plugin: 'io.github.robwin.jgitflow'
  ***************************/
 
 repositories {
+    mavenLocal()
     mavenCentral()
     maven { url "https://repo.spring.io/milestone" }
 }
 
 dependencies {
+    compile 'org.opentestsystem.ap:ap-common:0.1.5-SNAPSHOT'
+
     compile 'org.springframework.boot:spring-boot-starter-actuator'
     compile 'org.springframework.boot:spring-boot-starter-security'
     compile 'org.springframework.boot:spring-boot-starter-web'
     compile 'org.springframework.boot:spring-boot-starter-aop'
+    compile 'org.springframework.boot:spring-boot-starter-data-redis'
 
     compile 'org.springframework.cloud:spring-cloud-starter-config'
 
+    compile 'org.springframework.security.extensions:spring-security-saml2-core:1.0.2.RELEASE'
     compile 'org.springframework.retry:spring-retry'
+    compile 'org.springframework.session:spring-session'
+
+    compile 'org.apache.commons:commons-collections4:4.1'
+    compile 'org.apache.commons:commons-lang3:3.5'
+    compile 'commons-io:commons-io:2.5'
 
     compile 'com.google.guava:guava:21.0'
+
     compile 'io.springfox:springfox-swagger2:2.6.1'
     compile 'io.springfox:springfox-swagger-ui:2.6.1'
 
-    runtime 'org.springframework.boot:spring-boot-devtools'
+    compile 'org.apache.httpcomponents:httpclient:4.5.3'
 
     compileOnly 'org.projectlombok:lombok'
 
+    runtime 'org.springframework.boot:spring-boot-devtools'
+
     testCompile 'org.springframework.boot:spring-boot-starter-test'
+
+    testCompile 'org.projectlombok:lombok'
 }
 
 dependencyManagement {
     imports {
-        mavenBom "org.springframework.cloud:spring-cloud-dependencies:Dalston.M1"
+        mavenBom 'org.springframework.cloud:spring-cloud-dependencies:Dalston.RELEASE'
     }
 }
 
@@ -102,7 +118,7 @@ artifactory {
 
     publish {
         repository {
-            repoKey  = project.version.toString().contains('-SNAPSHOT') ? artifactorySnapshotPublish : artifactoryReleasePublish
+            repoKey  = project.version.contains('-SNAPSHOT') ? project.artifactorySnapshotPublish : project.artifactoryReleasePublish
             username = artifactoryUser
             password = artifactoryPassword
             maven	 = true
@@ -115,6 +131,10 @@ artifactory {
     resolve {
         repository {
             repoKey = 'libs-releases'
+            maven	= true
+        }
+        repository {
+            repoKey = 'libs-snapshots'
             maven	= true
         }
     }
@@ -142,9 +162,9 @@ task k8sCopyFiles(type: Copy) {
 
 docker {
     registryCredentials {
-        username = dockerHubUser
-        password = dockerHubPassword
-        email = dockerHubEmail
+        username = project.dockerHubUser
+        password = project.dockerHubPassword
+        email = project.dockerHubEmail
     }
 }
 
@@ -153,15 +173,15 @@ task dockerCopyFiles(type: Copy) {
 
     from('src/main/docker/') {
         filter(ReplaceTokens, tokens: [USER_HOME:           System.env.HOME,
-                                       configServerVersion: configServerVersion,
-                                       version:             version.toString(),
-                                       dockerTagBase:       dockerTagBase])
+                                       configServerVersion: project.configServerVersion,
+                                       version:             project.version,
+                                       dockerTagBase:       project.dockerTagBase])
     }
 
     from("build/libs/${jar.archiveName}") {
         // drop version from artifact name
         rename { String fileName ->
-            fileName.replace("-${project.version.toString()}", "")
+            fileName.replace("-${project.version}", "")
         }
     }
 
@@ -171,12 +191,12 @@ task dockerCopyFiles(type: Copy) {
 task dockerBuildImage(type: DockerBuildImage) {
     dependsOn 'dockerCopyFiles'
     inputDir = project.file('build/docker/')
-    tag = "${dockerTagBase}/${jar.baseName}:${version}"
+    tag = "${project.dockerTagBase}/${jar.baseName}:${project.version}"
 }
 
 task dockerPushImage(type: DockerPushImage) {
     dependsOn 'dockerBuildImage'
-    imageName = "${dockerTagBase}/${jar.baseName}:${version}"
+    imageName = "${project.dockerTagBase}/${jar.baseName}:${project.version}"
 }
 
 /***************************

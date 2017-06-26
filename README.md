@@ -1,5 +1,10 @@
 # ap-irs
-Renders items from the item bank.
+Used in conjunction with Smarter Balanced Item Viewing Service (IVS), the Item Rendering Service (IRS) Renders items from the item bank.
+
+* Clones the item repository into local IRS file system
+* Copies repository files to IVS service file system
+* Calls IVS Reload endpoint to pick up configuration for selected item
+* Returns the IVS Url that should be used to render this Item in calling application
 
 ## Technologies
 
@@ -9,6 +14,10 @@ Renders items from the item bank.
 
 Installing Gradle separately is not required.  It is recommended
 to use the Gradle Wrapper.
+
+## External Dependencies
+
+IRS depends on a running instance of Smarter Balanced Item Viewing Service (IVS). It also needs access to the IVS file system.
 
 ## Build Commands
 
@@ -28,6 +37,23 @@ Build: ```./gw clean build```
 Build skip tests: ```./gw clean build -x test```
 
 Run: ```./gw bootRun```
+
+## Item Viewing Service (IVS)
+
+Smarter Balanced IVS service is currently a docker image accessible in docker hub.
+
+A running instance of IVS is required for IRS to successfully return an Item preview Url.
+
+Follow these steps to stand-up a local instance of IVS:
+* Clone this repository
+* Open a Terminal window and navigate to src\main\docker\ivs
+* Run: ```docker-compose up```
+
+This will stand-up an instance of the most recent IVS docker image
+
+Important configuration settings within docker-compose.yml
+* The IVS instance runs on port 8200
+* The IVS local file system is configured to point to ```${HOME}/ItemBankIVS/``` this setting needs to match the ```ivsBaseDir``` in ```application.yml```
 
 ## application.yml
 
