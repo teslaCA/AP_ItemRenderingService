@@ -7,6 +7,7 @@ buildscript {
         springBootVersion = '1.5.2.RELEASE'
     }
     repositories {
+        mavenLocal()
         mavenCentral()
         jcenter()
     }
@@ -41,7 +42,7 @@ repositories {
 }
 
 dependencies {
-    compile 'org.opentestsystem.ap:ap-common:0.1.8-SNAPSHOT'
+    compile 'org.opentestsystem.ap:ap-common:0.1.7'
 
     compile 'org.springframework.boot:spring-boot-starter-actuator'
     compile 'org.springframework.boot:spring-boot-starter-security'
@@ -119,8 +120,8 @@ artifactory {
     publish {
         repository {
             repoKey  = project.version.contains('-SNAPSHOT') ? project.artifactorySnapshotPublish : project.artifactoryReleasePublish
-            username = artifactoryUser
-            password = artifactoryPassword
+            username = project.artifactoryUser
+            password = project.artifactoryPassword
             maven	 = true
         }
         defaults {
@@ -133,10 +134,7 @@ artifactory {
             repoKey = 'libs-releases'
             maven	= true
         }
-        repository {
-            repoKey = 'libs-snapshots'
-            maven	= true
-        }
+
     }
 }
 
