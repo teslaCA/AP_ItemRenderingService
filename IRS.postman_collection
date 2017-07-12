@@ -1,0 +1,33 @@
+{
+	"variables": [],
+	"info": {
+		"name": "IRS",
+		"_postman_id": "63118856-f093-332a-703e-1e6f3a9627ac",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Render Item",
+			"request": {
+				"url": "http://localhost:8083/api/v1/items/I-187-2014654623",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Digest username=\"\", realm=\"\", nonce=\"\", uri=\"/api/items/I-187-2061\", response=\"ee97f22f99c17482706b15a37b4e881c\", opaque=\"\"",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
