@@ -34,14 +34,14 @@ spring:
     enabled: "${SESSION_CLUSTER_ENABLED:true}"
 
 itembank:
-  host: "${GITLAB_HOST:https://gitlab-dev.smarterbalanced.org}"
+  host: "https://gitlab-dev.smarterbalanced.org"
   accessToken: "${GITLAB_ACCESS_TOKEN}"
   user: "${GITLAB_USER}"
   password: "${GITLAB_PASSWORD}"
-  group: "${GITLAB_GROUP:iat-development}"
-  localBaseDir: "${GITLAB_LOCAL_BASE_DIR:${HOME}/ItemBankIRS}"
-  apiVersion: "${GITLAB_API_VERSION:/api/v4}"
-  bankKey: "${GITLAB_BANK_KEY:187}"
+  group: "${GITLAB_GROUP}"
+  localBaseDir: "${HOME}/ItemBankIRS"
+  apiVersion: "/api/v4"
+  bankKey: "187"
 
 ivs:
   host: "${IVS_HOST:http://localhost:8200}"
@@ -49,3 +49,10 @@ ivs:
   reloadEndpoint: "${IVS_RELOAD_ENDPOINT:/Pages/API/content/reload}"
   itemMapping: "${IVS_ITEM_MAPPING:/item}"
   ivsBaseDir: "${IVS_BASE_DIR:${HOME}/ItemBankIVS}"
+
+---
+spring:
+  profiles: dev
+
+itembank:
+  group: "iat-development"
