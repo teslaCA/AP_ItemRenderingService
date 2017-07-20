@@ -17,7 +17,7 @@ services:
         networks:
             - spring-cloud-network
         volumes:
-            - @USER_HOME@/smarter_app/sbac-config-repo:/tmp
+            - @USER_HOME@/smarter_app/iat-config-repo:/tmp
         logging:
             driver: json-file
     ap-irs:
