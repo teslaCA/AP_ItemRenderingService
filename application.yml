@@ -28,6 +28,7 @@ logging:
       opentestsystem:
         ap:
           irs: DEBUG
+          common: DEBUG
 
 spring:
   session:
@@ -45,9 +46,9 @@ itembank:
 
 ivs:
   host: "${IVS_HOST:http://localhost:8200}"
-  externalHost: "${IVS_HOST:http://localhost:8200}"
-  reloadEndpoint: "${IVS_RELOAD_ENDPOINT:/Pages/API/content/reload}"
-  itemMapping: "${IVS_ITEM_MAPPING:/item}"
+  externalHost: "${IVS_HOST:http://localhost:8080}"
+  reloadEndpoint: "${IVS_RELOAD_ENDPOINT:/previewer/Pages/API/content/reload}"
+  itemMapping: "${IVS_ITEM_MAPPING:/previewer/item}"
   ivsBaseDir: "${IVS_BASE_DIR:${HOME}/ItemBankIVS}"
 
 ---

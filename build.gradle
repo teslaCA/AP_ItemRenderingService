@@ -192,12 +192,25 @@ task dockerCopyFiles(type: Copy) {
     }
 
     into 'build/docker'
+
+
+}
+
+task dockerCopyViewerFiles(type: Copy, dependsOn: "dockerCopyFiles") {
+    from("cots/previewer.war")
+    into('build/docker/ivs')
 }
 
 task dockerBuildImage(type: DockerBuildImage) {
     dependsOn 'dockerCopyFiles'
     inputDir = project.file('build/docker/')
     tag = "${project.dockerTagBase}/${jar.baseName}:${project.version}"
+}
+
+task dockerBuildViewerImage(type: DockerBuildImage) {
+    dependsOn 'dockerCopyViewerFiles'
+    inputDir = project.file('build/docker/ivs')
+    tag = "${project.dockerTagBase}/${project.dockerArtifactName}:${project.version}"
 }
 
 task dockerPushImage(type: DockerPushImage) {
